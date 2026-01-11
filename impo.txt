@@ -1,0 +1,7 @@
+uv sync
+uv run streamlit run frontend.py
+ollama run alibayram/medgemma:4b
+ollama rm llama3:8b(model name)
+uv run backend/main.py
+
+uv run streamlit run frontend.py
